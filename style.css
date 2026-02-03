@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #EDEDE9;
+  font-family: 'Degular', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 80px; 
+}
+
+.button {
+  padding: 14px 28px;
+  font-size: 30px;
+  font-weight: 500; 
+  color: black;
+  border: none;
+  cursor: default;
+  text-align: center;
+}
+
+.red {
+  background-color: #EF233C;
+}
+
+.yellow {
+  background-color: #FFD60A;
+}
+
+.blue {
+  background-color: #1E96FC;
+}
