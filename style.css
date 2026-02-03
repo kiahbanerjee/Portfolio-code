@@ -19,7 +19,7 @@ body {
   font-weight: 500; 
   color: black;
   border: none;
-  cursor: pointer;  /* ADD this */
+  cursor: pointer;  
   text-align: center;
 }
 
@@ -42,8 +42,8 @@ body {
   background-color: #C0C0C0; 
   position: absolute;
   top: 26.2%;
-  left: 30%; /* to the left of Kiah Banerjee */
-  transform: translate(-300px, -50%); /* fine-tune positioning if needed */
+  left: 30%; 
+  transform: translate(-300px, -50%); 
   display: none;
 }
 
@@ -72,7 +72,7 @@ body {
 .work {
   position: absolute;
   bottom: 45.8%; 
-  right: 27.8%;              /* left of Projects button */
+  right: 27.8%;              
   transform: translate(300px, 0);
   display: none;
   flex-direction: column;
@@ -84,7 +84,7 @@ body {
 
 .work-box {
   width: 280px;
-  height: 60px;     /* shorter, horizontal boxes */
+  height: 60px;     
 }
 
 .work-box:nth-child(1) { background-color: #E8E8E8; }
