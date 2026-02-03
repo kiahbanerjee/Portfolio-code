@@ -19,9 +19,10 @@ body {
   font-weight: 500; 
   color: black;
   border: none;
-  cursor: default;
+  cursor: pointer;  /* ADD this */
   text-align: center;
 }
+
 
 .red {
   background-color: #EF233C;
@@ -34,3 +35,61 @@ body {
 .blue {
   background-color: #1E96FC;
 }
+
+.image {
+  width: 300px;
+  height: 320px;
+  background-color: #C0C0C0; 
+  position: absolute;
+  top: 26.2%;
+  left: 30%; /* to the left of Kiah Banerjee */
+  transform: translate(-300px, -50%); /* fine-tune positioning if needed */
+  display: none;
+}
+
+.image.show {
+  display: block;
+}
+
+.about {
+  width: 386px;
+  height: 250px;
+  background-color: #C0C0C0; 
+  position: absolute;
+  top: 69.6%;
+  right: 43%;  
+  transform: translate(300px, -50%);
+  display: none;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.about.show {
+  display: block;
+}
+
+.work {
+  position: absolute;
+  bottom: 45.8%; 
+  right: 27.8%;              /* left of Projects button */
+  transform: translate(300px, 0);
+  display: none;
+  flex-direction: column;
+}
+
+.work.show {
+  display: flex;
+}
+
+.work-box {
+  width: 280px;
+  height: 60px;     /* shorter, horizontal boxes */
+}
+
+.work-box:nth-child(1) { background-color: #E8E8E8; }
+.work-box:nth-child(2) { background-color: #D8D8D8; }
+.work-box:nth-child(3) { background-color: #C8C8C8; }
+.work-box:nth-child(4) { background-color: #B8B8B8; }
+.work-box:nth-child(5) { background-color: #A8A8A8; }
+.work-box:nth-child(6) { background-color: #989898; }
