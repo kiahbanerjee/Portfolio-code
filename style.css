@@ -78,7 +78,11 @@ body {
   right: 27.8%;              
   transform: translate(300px, 0);
   display: none;
+  font-size: 25px;
   flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+  
 }
 
 .work.show {
@@ -103,7 +107,7 @@ body {
   font-family: 'Degular', sans-serif;
   font-size: 25px;  
   font-weight: 500;
-  color: #333;
+  color: #000000;
   bottom: 50%;  
   left: 30%;             
   transform: translateX(-300px);     
@@ -121,7 +125,7 @@ body {
   font-family: 'Degular', sans-serif;
   font-size: 25px;  
   font-weight: 500;
-  color: #333;
+  color: #000000;
   bottom: 12%;  
   right: 22.3%;             
   transform: translateX(-300px);     
@@ -139,8 +143,8 @@ body {
   font-family: 'Degular', sans-serif;
   font-size: 25px;  
   font-weight: 500;
-  color: #333;
-  bottom: 12%;  
+  color: #000000;
+  bottom: 8%;  
   right: 22.3%;             
   transform: translateX(-300px);     
   opacity: 0;
