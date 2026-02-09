@@ -19,7 +19,43 @@ aboutBtn.addEventListener('click', () => {
   cvText.classList.toggle('show');
 
 });
-projectsBtn.addEventListener('click', () => { 
+projectsBtn.addEventListener('click', () => {
   workBoxes.classList.toggle('show');
 });
 
+contactText.addEventListener('click', () => {
+  window.location.href = 'mailto:banek015@newschool.edu';
+});
+
+instagramText.addEventListener('click', () => {
+  window.open('https://instagram.com/art.design_kiah', '_blank');
+});
+
+const edibleStreetsVideo = document.getElementById('edibleStreetsVideo');
+const workBoxItems = document.querySelectorAll('.work-box');
+const edibleStreetsBox = workBoxItems[1]; // Second box (index 1)
+
+edibleStreetsBox.addEventListener('mouseenter', () => {
+  edibleStreetsVideo.classList.add('show');
+  edibleStreetsVideo.play();
+});
+
+edibleStreetsBox.addEventListener('mouseleave', () => {
+  edibleStreetsVideo.classList.remove('show');
+  edibleStreetsVideo.pause();
+  edibleStreetsVideo.currentTime = 0;
+});
+
+const nothingIsWastedVideo = document.getElementById('nothingIsWastedVideo');
+const nothingIsWastedBox = workBoxItems[2]; // Third box (index 2)
+
+nothingIsWastedBox.addEventListener('mouseenter', () => {
+  nothingIsWastedVideo.classList.add('show');
+  nothingIsWastedVideo.play();
+});
+
+nothingIsWastedBox.addEventListener('mouseleave', () => {
+  nothingIsWastedVideo.classList.remove('show');
+  nothingIsWastedVideo.pause();
+  nothingIsWastedVideo.currentTime = 0;
+});
