@@ -59,3 +59,31 @@ nothingIsWastedBox.addEventListener('mouseleave', () => {
   nothingIsWastedVideo.pause();
   nothingIsWastedVideo.currentTime = 0;
 });
+
+const editorialVideo = document.getElementById('editorialVideo');
+const editorialBox = workBoxItems[4]; // Fifth box (index 4)
+
+editorialBox.addEventListener('mouseenter', () => {
+  editorialVideo.classList.add('show');
+  editorialVideo.play();
+});
+
+editorialBox.addEventListener('mouseleave', () => {
+  editorialVideo.classList.remove('show');
+  editorialVideo.pause();
+  editorialVideo.currentTime = 0;
+});
+
+const dinVideo = document.getElementById('dinVideo');
+const dinBox = workBoxItems[0]; // First box (index 0)
+
+dinBox.addEventListener('mouseenter', () => {
+  dinVideo.classList.add('show');
+  dinVideo.play();
+});
+
+dinBox.addEventListener('mouseleave', () => {
+  dinVideo.classList.remove('show');
+  dinVideo.pause();
+  dinVideo.currentTime = 0;
+});

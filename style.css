@@ -188,14 +188,26 @@ font-style: normal;
   top: 30.5%;
   left: 51%;
   transform: translate(-50%, -50%);
-  width: 30rem;
+  width: 25rem;
 }
 
 #nothingIsWastedVideo {
   top: 44%;
   left: 54%;
   transform: translate(-50%, -50%);
-  width: 25rem;
+  width: 20rem;
 }
 
+#editorialVideo {
+  top: 52%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+}
 
+#dinVideo {
+  top: 33.5%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+}
