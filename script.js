@@ -1,3 +1,14 @@
+// Scale page to fit viewport
+function scaleContent() {
+  const wrapper = document.querySelector('.page-wrapper');
+  const scaleX = window.innerWidth / 1440;
+  const scaleY = window.innerHeight / 900;
+  const scale = Math.min(scaleX, scaleY) * 1.15;
+  wrapper.style.transform = `scale(${scale})`;
+}
+window.addEventListener('resize', scaleContent);
+scaleContent();
+
 const kiahBtn = document.getElementById('kiahBtn');
 const image = document.getElementById('imageofme');
 const aboutBtn = document.getElementById('aboutBtn'); 
